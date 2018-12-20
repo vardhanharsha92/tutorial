@@ -1,0 +1,24 @@
+html,body,.navigation{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation ul li{
+    float: left;
+    padding: 10px;
+}
+
+.navigation ul li a{
+    border: 2px dashed red;
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 5px;
+    text-decoration: none;
+
+}

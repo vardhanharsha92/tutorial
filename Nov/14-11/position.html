@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title> POSITIONS </title>
+		<style>
+		.static-head{
+				background-color: red;
+				position:static;
+			}
+		.relative-pos{
+				background-color: violet;
+				position: relative;
+				top:10px;
+				bottom:10px;
+				left:10px;
+				right:30px;
+				height:600px;
+				text-align: center;
+			}
+		.absolute{
+				background-color: blue;
+				color:white;
+				position:absolute;
+				top:30px;
+				left:30px;
+				right:50px;
+				height:200px;
+				}
+		.fixed{
+				background-color: pink;
+				color:black;
+				position:fixed;
+				top: 0;
+				right: 0;
+				border-bottom-left-radius: 10px;
+				}
+		</style>
+	</head>
+	<body>
+		<div class = "static-head">
+			<h1>This Is Header</h1>
+		</div>
+		<div class = "relative-pos">
+			<h2>Content</h2>
+				<div class = "absolute">
+					<h3>Text</h3>
+				</div>
+		</div>
+		<div class = "fixed">
+			<p>facebook</p>
+		</div>
+		
+	</body>
+</html>

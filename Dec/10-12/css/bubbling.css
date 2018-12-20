@@ -1,0 +1,11 @@
+#myDiv1 {
+    background-color: coral;
+    padding: 50px;
+  }
+  
+  #myP1 {
+    background-color: white; 
+    font-size: 20px;
+    border: 1px solid;
+    padding: 20px;
+  }

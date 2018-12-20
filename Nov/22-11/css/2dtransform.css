@@ -1,0 +1,41 @@
+.translate{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: translate(50px , 70px);
+}
+
+.rotate{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: rotate(60deg);
+}
+
+.scale{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: scale(1,2);
+}
+
+.skewx{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: skewX(30deg);
+}
+
+.skewy{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: skewY(30deg);
+}
+
+.skew{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: skew(20deg,20deg); 
+}

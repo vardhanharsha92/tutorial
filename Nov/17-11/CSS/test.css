@@ -1,0 +1,9 @@
+table{
+    border-collapse:collapse;
+    text-align: center;
+}
+
+table tr:nth-child(2){
+    background-color: darkolivegreen;
+    background-color: brown;
+}

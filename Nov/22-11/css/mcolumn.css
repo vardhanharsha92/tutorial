@@ -1,0 +1,15 @@
+head,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.column{
+    column-count:6;
+    column-gap: 30px;
+    column-rule-style: dashed;
+    column-rule-width: 5px;
+    column-rule-color: aqua;
+    column-width: 25px;
+    column-span: all;
+}
