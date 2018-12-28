@@ -1,0 +1,41 @@
+html,body,.container{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex: 1 10%;
+    background-color: aqua;
+}
+.header ul {
+    list-style-type: none;
+    padding: 0.5vw;
+}
+.header ul li{
+    display: inline;
+    padding: 0 0.5vw;
+}
+.header ul li a{
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+.section{
+    display: flex;
+    flex: 1 80%;
+    background-color: chartreuse;
+}
+.footer{
+    display: flex;
+    flex: 1 10%;
+    background-color: chocolate;
+}

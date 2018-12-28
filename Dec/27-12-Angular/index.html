@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a ui-Sref = "home">Home</a></li>
+                <li><a ui-Sref="contact">Contact</a></li>
+                <li><a ui-Sref="email">E-mail</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <ui-view></ui-view>
+        </div>
+        <div class="footer">
+            This is Footer
+        </div>
+    </div>
+    
+    <script src="Js/jquery-3.3.1.min.js"></script>
+    <script src="Js/angular.min.js"></script>
+    <script src="Js/angular-ui-router.js"></script>
+    <script src="Js/all.js"></script>
+    <script src="Js/controllers/homeCtrl.js"></script>
+    <script src="Js/controllers/contactCtrl.js"></script>
+    <script src="Js/controllers/emailCtrl.js"></script>
+</body>
+</html>
